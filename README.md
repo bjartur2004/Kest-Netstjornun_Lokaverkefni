@@ -56,3 +56,33 @@ constraint department_FK foreign key (departmentID) references department(depart
 constraint jobID_FK foreign key (jobID) references jobs(jobID)
 );
 ```
+
+Töflurnar í databaseinum: 
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/895bd88d-d370-42b6-b843-ef1c139e98a5)
+
+Foreign key tengingar milli tafla: 
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/14fa1966-f848-489e-bc1b-829c6cf0bdda)
+
+## Vikulegar Backup
+crontab config:
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/197709f7-036f-46fe-a7e3-6418260bc6be)
+
+backup script:
+``` bash
+#!/bin/bash
+
+backup_dir="/backups"
+mkdir -p "$backup_dir"
+
+current_date=$(date +%F)
+
+backup_subdir="$backup_dir/$current_date"
+mkdir -p "$backup_subdir"
+
+for user_dir in /home/*; do
+    if [ -d "$user_dir" ]; then
+        username=$(basename "$user_dir")
+        tar -czvf "$backup_subdir/$username.tar.gz" -C "$user_dir" .
+    fi
+done
+```
