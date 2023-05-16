@@ -20,10 +20,21 @@ client2:
 
 ## DHCP setup
 
-server 1 er með static ip 192.168.100.254, seinasta nothæfa ip talan á þessu subneti
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/b76a4a92-7280-47b6-ab06-7d8eebef5cac)
-// img af client 1 og 2
-// put /etc/dhcp/dhcpd.conf og /etc/default/isc-dhcp-server (after dns fonf)
+server1 er með static ip 192.168.100.254, seinasta nothæfa ip talan á þessu subneti
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/e944059f-4f8a-4aed-b195-9fcba402b67f)
+
+server1 er með DHCP server sem gefur client 1 og 2 ip adressu
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/31b73d1b-8ba1-4b8e-a12b-6c66b3e23ef5)
+
+DHCP conf /etc/dhcp/dhcpd.conf:
+
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/d79e4fb7-adc1-4967-a7e2-5a99eee50c8c)
+
+/etc/default/isc-dhcp-server:
+
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/3f363af8-5ee7-4e8d-acef-b83d65e6e8fa)
+
+
 
 ## Database
 ```sql
