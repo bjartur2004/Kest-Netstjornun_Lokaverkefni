@@ -4,15 +4,18 @@
 
 server1: 
 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/15b77f8e-df3a-4493-a4e6-a7066b6651a2)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/3ba43a64-8e8e-4d2a-92f7-da923095c19e)
+
 
 client1:
 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/e56e7da1-a6ef-47ac-936c-1fd0968fdd36)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/92f857e1-dc14-4202-86bf-b11d0fd88468)
+
 
 client2:
 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/c5cb1328-22da-4aaa-9488-9bb73f3c995f)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/e0eb738f-f4dd-460f-81fa-3dd8fa2e7771)
+
 
 
 ## DHCP setup
