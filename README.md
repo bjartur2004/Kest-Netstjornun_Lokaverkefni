@@ -1,5 +1,20 @@
 # Kest-Netstjornun_Lokaverkefni
 
+## Hostname og Domain
+
+server1: 
+
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/15b77f8e-df3a-4493-a4e6-a7066b6651a2)
+
+client1:
+
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/e56e7da1-a6ef-47ac-936c-1fd0968fdd36)
+
+client2:
+
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/c5cb1328-22da-4aaa-9488-9bb73f3c995f)
+
+
 ## DHCP setup
 
 server 1 er með static ip 192.168.100.254, seinasta nothæfa ip talan á þessu subneti
@@ -67,6 +82,7 @@ Foreign key tengingar milli tafla:
 
 ## Vikulegar Backup
 crontab config:
+
 ![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/197709f7-036f-46fe-a7e3-6418260bc6be)
 
 backup script:
@@ -103,3 +119,5 @@ client1:
 client2:
 
 ![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/da79dc02-72ed-4f4c-89db-f9cc22608960)
+
+
