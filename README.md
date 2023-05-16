@@ -91,12 +91,15 @@ done
 ## NTP server
 
 server1 syncar við ýmsa servera
+
 ![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/27bb9fdb-0956-4d4d-82f1-5c3aeff54c24)
 
 clientar synca bara við server1
 
-client1 
+client1:
+
 ![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/032dc31f-e13a-4a19-a498-1d14f88b3fd8)
 
-client2
+client2:
+
 ![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/da79dc02-72ed-4f4c-89db-f9cc22608960)
