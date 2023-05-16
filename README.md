@@ -76,17 +76,17 @@ constraint jobID_FK foreign key (jobID) references jobs(jobID)
 ```
 
 Töflurnar í databaseinum: 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/895bd88d-d370-42b6-b843-ef1c139e98a5)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/2ed34774-fe83-46c5-a797-d1556a2f0ae6)
 
 
 
 Foreign key tengingar milli tafla: 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/14fa1966-f848-489e-bc1b-829c6cf0bdda)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/26b609bf-7ad9-4a3e-becc-c6e5798329ea)
 
 ## Vikulegar Backup
 crontab config:
 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/197709f7-036f-46fe-a7e3-6418260bc6be)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/1bcbb05f-fc27-4b87-8f5d-676ca322ff99)
 
 backup script:
 ``` bash
@@ -111,16 +111,16 @@ done
 
 server1 syncar við ýmsa servera
 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/27bb9fdb-0956-4d4d-82f1-5c3aeff54c24)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/3795f572-9066-48a9-a620-58c8c8e6e960)
 
 clientar synca bara við server1
 
 client1:
 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/032dc31f-e13a-4a19-a498-1d14f88b3fd8)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/b4fb8e17-35d9-4e8f-94de-a67bd445f63e)
 
 client2:
 
-![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/da79dc02-72ed-4f4c-89db-f9cc22608960)
+![image](https://github.com/bjartur2004/Kest-Netstjornun_Lokaverkefni/assets/46542460/47ff98c5-af62-4917-bd14-a0bf176551b0)
 
 
